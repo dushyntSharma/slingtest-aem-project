@@ -1,0 +1,18 @@
+<h1>Coding Challenge</h1>
+<div
+	data-sly-use.model="${'com.mindtree.net.core.models.CodeChallenge' @rAttribute= 'TestAttribute'}"></div>
+<div>
+	are you in the code challenge today??: <b>${model.codingChallenge}</b>
+</div>
+
+<div>
+	Country: <b>${model.country}</b>
+</div>
+
+<div data-sly-list.item="${model.authSkills}">
+	<p>
+		<b>${itemList.count}</b> -> <b>${item}</b>
+	</p>
+
+
+</div>

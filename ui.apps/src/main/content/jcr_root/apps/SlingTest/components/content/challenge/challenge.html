@@ -1,0 +1,37 @@
+<h1>Coding Challenge</h1>
+<div
+	data-sly-use.model="${'com.mindtree.net.core.models.CodeChallenge' @rAttribute= 'TestAttribute'}"></div>
+
+
+<div data-sly-include="header.html"></div>
+<div>
+	Are you ready for the Coding Challenge?: <b>${model.currentEmployee}</b>
+</div>
+
+<div data-sly-list.item="${model.authBooks}">
+	<p>
+		<b>${itemList.count}</b> -> <b>${item}</b>
+	</p>
+</div>
+<div>
+	Country: <b>${model.country}</b>
+</div>
+
+<h3>Path Field: ${model.pathBrowser}</h3>
+
+<img src="${model.fileReference}" width=600 height=350 />
+
+<p data-sly-text="${'Using the data-sly-repeat for the List of Skills'}"></p>
+
+<div data-sly-repeat="${model.authBooks}">${item}</div>
+
+</p>
+
+<p>
+<h3>
+	<div data-sly-test="${wcmmode.edit}">IT IS IN EDIT MODE</div>
+</h3>
+
+</p>
+
+<div data-sly-include="secondfile.html"></div>

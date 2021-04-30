@@ -1,0 +1,97 @@
+<style>
+body {
+	background-color: silver;
+	font-size: large;
+	font-family: cursive;
+}
+</style>
+
+
+<center>
+	<h1>Employee Details</h1>
+	<div
+		data-sly-use.model="${'com.mindtree.net.core.models.Testing' @rAttribute= 'TestAttribute'}"></div>
+
+
+	<div>
+		First Name: <b>${model.firstName}</b>
+	</div>
+	<div>
+		Last Name: <b>${model.lastName}</b>
+	</div>
+	<div>
+		Is he Current Employee?: <b>${model.currentEmployee}</b>
+	</div>
+	<div>
+		Page Title: <b>${model.pageTitle}</b>
+	</div>
+	<div>
+		Request Attribute: <b>${model.requestAttribute}</b>
+	</div>
+	<div>
+		Home Page Name: <b>${model.homePageName}</b>
+	</div>
+	<div>
+		Created By: <b>${model.lastModifiedBy}</b>
+	</div>
+
+	<h3>Path Field: ${model.pathBrowser}</h3>
+
+	<img src="${model.fileReference}" width=600 height=350 />
+
+
+
+
+	<p>
+	<div>
+		<div data-sly-element="${'h1'}">Expertise In</div>
+	</div>
+	<div data-sly-list.item="${model.authBooks}">
+		<p>
+			<b>${itemList.count}</b> -> <b>${item}</b>
+		</p>
+
+
+	</div>
+
+	<p
+		data-sly-text="${'Using the data-sly-repeat for the List of Skills'}"></p>
+
+	<div data-sly-repeat="${model.authBooks}">${item}</div>
+
+	</p>
+
+	<p>
+	<h3>
+		<div data-sly-test="${wcmmode.edit}">IT IS IN EDIT MODE</div>
+	</h3>
+
+	</p>
+
+	<template
+		data-sly-template.two="${@ title, resource='The resource of the parent node'}">
+		<h1>${title}</h1>
+		<p>Parent: ${resource.name}</p>
+	</template>
+	<div
+		data-sly-call="${two @ title=properties.jcr:title, resource=resource.parent}"></div>
+
+	<p>
+		<template data-sly-template.one>This line is displayed
+			using the template and call tags</template>
+		<b><div data-sly-call="${one}"></div></b>
+	</p>
+
+
+	<div>
+		Gender: <b>${model.gender}</b>
+	</div>
+
+	<div>
+		Country: <b>${model.country}</b>
+	</div>
+
+	<div data-sly-include="exinclude.html"></div>
+
+
+</center>

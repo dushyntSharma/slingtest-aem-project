@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="First Name"
+                        name="./firstName"/>
+                    <lastName
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Last Name"
+                        name="./lastName"/>
+                    <employee
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        checked="{Boolean}false"
+                        fieldDescription="When checked, He is a current Employee."
+                        name="./currentEmployee"
+                        text="Is he a current Employee?"
+                        uncheckedValue="{Boolean}false"
+                        value="{Boolean}true"/>
+                    <multifield
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <books
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}false"
+                                fieldLabel="Skills">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    fieldLabel="Books"
+                                    name="./books"/>
+                            </books>
+                        </items>
+                    </multifield>
+                    <gender
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                        name="./gender"
+                        text="Gender">
+                        <items jcr:primaryType="nt:unstructured">
+                            <male
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                                fieldLabel="Male"
+                                text="Male"
+                                value="Male"/>
+                            <female
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                                fieldLabel="Female"
+                                text="Female"
+                                value="Female"/>
+                            <others
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/radio"
+                                fieldLabel="Others"
+                                text="Others"
+                                value="Others"/>
+                        </items>
+                    </gender>
+                    <country
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        emptyText="Country"
+                        name="./country">
+                        <items jcr:primaryType="nt:unstructured">
+                            <India
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="India"
+                                text="India"
+                                value="India"/>
+                            <US
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="US"
+                                text="US"
+                                value="US"/>
+                            <Canada
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Canada"
+                                text="Canada"
+                                value="Canada"/>
+                            <Japan
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Japan"
+                                text="Japan"
+                                value="Japan"/>
+                            <Australia
+                                jcr:primaryType="nt:unstructured"
+                                fieldLabel="Australia"
+                                text="Australia"
+                                value="Australia"/>
+                        </items>
+                    </country>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>
