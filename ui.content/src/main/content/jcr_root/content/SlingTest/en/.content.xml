@@ -88,5 +88,7 @@
                     sling:resourceType="SlingTest/components/content/sharing"/>
             </responsivegrid>
         </root>
+        <image/>
     </jcr:content>
+    <Challenge/>
 </jcr:root>
