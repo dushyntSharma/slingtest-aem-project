@@ -8,10 +8,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
+                        jcr:lastModified="{Date}2021-05-01T10:23:18.452+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SlingSite Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:SlingTest,/apps/SlingTest/components/form/container]"
+                        components="[group:General,/libs/fd/af/components/guidebutton,/libs/fd/af/components/guidechart,group:SlingTest,/apps/SlingTest/components/form/container,/apps/weretail/components/content/carousel]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -47,4 +49,11 @@
             </form>
         </components>
     </SlingTest>
+    <weretail jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <content jcr:primaryType="nt:unstructured">
+                <carousel jcr:primaryType="nt:unstructured"/>
+            </content>
+        </components>
+    </weretail>
 </jcr:root>

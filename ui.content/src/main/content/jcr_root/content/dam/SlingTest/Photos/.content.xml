@@ -3,9 +3,8 @@
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         jcr:primaryType="nt:unstructured"
-        jcr:title="SlingSite">
-        <folderThumbnail/>
-    </jcr:content>
-    <asset.jpg/>
-    <Photos/>
+        jcr:title="Photos"/>
+    <header.jpg/>
+    <backiee-61525.jpg/>
+    <Capture.PNG/>
 </jcr:root>

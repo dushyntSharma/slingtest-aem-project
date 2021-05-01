@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-05-01T10:12:40.995+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/SlingTest/settings/wcm/templates/multifield"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="MultiField"
+        sling:resourceType="SlingTest/components/structure/page"/>
+</jcr:root>

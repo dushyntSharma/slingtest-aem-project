@@ -91,4 +91,6 @@
         <image/>
     </jcr:content>
     <Challenge/>
+    <MultiField/>
+    <OOTBComponent/>
 </jcr:root>

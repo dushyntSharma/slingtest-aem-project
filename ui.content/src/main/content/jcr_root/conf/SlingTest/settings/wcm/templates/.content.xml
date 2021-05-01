@@ -4,4 +4,6 @@
     jcr:primaryType="cq:Page">
     <content-page/>
     <challenge/>
+    <multifield/>
+    <ootb-component/>
 </jcr:root>

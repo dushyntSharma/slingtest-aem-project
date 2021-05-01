@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-01T10:11:44.993+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/SlingTest/settings/wcm/templates/multifield"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="SlingTest/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <test2
+                jcr:created="{Date}2021-05-01T10:09:40.000+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-01T10:10:24.904+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/test2"
+                books="[JAVA,Python,React]"
+                country="India"
+                currentEmployee="true"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"
+                firstName="Shreevatsa"
+                gender="Male"
+                lastName="MS"
+                pathBrowser="/content/SlingTest/en/Challenge"/>
+            <test2_1005525648
+                jcr:created="{Date}2021-05-01T10:10:37.193+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-01T10:11:44.989+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/test2"
+                books="[C++,HTML,CSS]"
+                country="Canada"
+                currentEmployee="false"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/snowy-mountain-glacier.jpg"
+                firstName="Arunakshi"
+                gender="Female"
+                lastName="Sharma"
+                pathBrowser="/content/we-retail/language-masters/en/women"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
