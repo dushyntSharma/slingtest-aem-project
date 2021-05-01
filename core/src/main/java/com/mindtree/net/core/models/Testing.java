@@ -138,8 +138,7 @@ public class Testing {
 //		LOGGER.info("\n Inside INIT {} : {}", currentPage.getTitle(), resource.getPath());
 //
 //	}
-	
-//checjk for jenkins
+
 
 
 
