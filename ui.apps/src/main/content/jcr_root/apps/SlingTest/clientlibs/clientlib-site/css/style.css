@@ -1,0 +1,60 @@
+.text-red {
+	color: red;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-blue {
+	color: blue;
+}
+
+.text-orange {
+	color: orange;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-font18 {
+	font-size: 18px;
+}
+
+.text-font22 {
+	font-size: 22px;
+}
+
+.text-font26 {
+	font-size: 26px;
+}
+
+.img-8 {
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-15 {
+	border-radius: 15px;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-25 {
+	border-radius: 25px;
+	max-width: 100%;
+	height: auto;
+}
+.body-back{
+        background-color: silver;
+    }

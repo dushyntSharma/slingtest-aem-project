@@ -16,4 +16,6 @@
         </root>
         <image/>
     </jcr:content>
+    <Test/>
+    <Internationalisation/>
 </jcr:root>

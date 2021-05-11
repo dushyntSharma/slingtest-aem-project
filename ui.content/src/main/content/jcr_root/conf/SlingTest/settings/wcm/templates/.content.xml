@@ -6,4 +6,10 @@
     <challenge/>
     <multifield/>
     <ootb-component/>
+    <client-library/>
+    <internationalisation/>
+    <resolver-assignment/>
+    <aaa/>
+    <csv-reader/>
+    <content-fragment-test/>
 </jcr:root>

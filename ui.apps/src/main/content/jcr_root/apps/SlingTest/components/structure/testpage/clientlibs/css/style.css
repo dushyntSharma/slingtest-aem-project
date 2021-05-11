@@ -1,0 +1,23 @@
+#header {
+	color: green;
+	text-align: center;
+}
+
+.text-red {
+	color: blue;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+.body-back{
+        background-color: red;
+    }

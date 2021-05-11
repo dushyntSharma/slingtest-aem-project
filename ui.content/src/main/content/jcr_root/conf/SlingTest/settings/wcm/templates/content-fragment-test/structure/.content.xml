@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-10T16:36:21.509+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/SlingTest/settings/wcm/templates/content-fragment-test"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="SlingTest/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <mycontentfragment
+                jcr:created="{Date}2021-05-10T16:33:30.506+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-10T16:36:21.506+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/myContentFragment"
+                displayMode="multi"
+                fragmentPath="/content/dam/SlingTest/content-fragment/en/employee-details"
+                paragraphScope="all"
+                variationName="master"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-08T11:51:43.062+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/content-page"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="SlingTest/components/structure/page">
@@ -22,6 +24,16 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SlingTest/components/content/navigation"
                 navigationRoot="/content/SlingTest/"/>
+            <carousel
+                jcr:created="{Date}2021-05-08T11:50:08.660+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-08T11:50:53.943+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weretail/components/content/carousel"
+                autopauseDisabled="false"
+                autoplay="false"
+                delay="5000"/>
             <breadcrumb
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SlingTest/components/content/breadcrumb"/>

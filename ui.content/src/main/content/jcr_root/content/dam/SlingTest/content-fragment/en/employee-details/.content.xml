@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1d9dd08d-eb94-48b8-9d6e-2f48cd6cb555">
+    <jcr:content
+        cq:name="employee-details"
+        cq:parentPath="/content/dam/SlingTest/content-fragment/en"
+        jcr:description="Employee Details"
+        jcr:lastModified="{Date}2021-05-10T16:35:56.601+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Employee Details"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-10T16:35:56.601+05:30">
+        <data
+            cq:model="/conf/SlingTest/settings/dam/cfm/models/test-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                employeename="Shreevatsa MS"
+                employeename_x0040_LastModified="{Date}2021-05-10T16:08:39.624+05:30"
+                headBranch="Karnataka"
+                headBranch_x0040_LastModified="{Date}2021-05-10T16:08:39.627+05:30"
+                joinedDate="{Date}2021-03-05T16:07:00.000+05:30"
+                joinedDate_x0040_LastModified="{Date}2021-05-10T16:08:39.626+05:30"
+                permanentEmployee="{Boolean}true"
+                permanentEmployee_x0040_LastModified="{Date}2021-05-10T16:08:39.627+05:30"
+                skills="[Java,Python,React]"
+                skills_x0040_LastModified="{Date}2021-05-10T16:08:39.625+05:30"
+                workLife="&lt;p>Work–life balance is sort of a nebulous term that gets thrown around a lot. It doesn't necessarily mean a 50/50 balance of time between professional and personal pursuits. What it actually means is striking the right ratio of time you spend reaching career goals and doing what brings joy to your life. This ratio can change over time, depending on where your individual priorities lie. If you're saving up for a down payment on a new house, you might, for instance, put more time into your career so you can increase your earnings.&lt;/p>&#xa;"
+                workLife_x0040_ContentType="text/html"
+                workLife_x0040_LastModified="{Date}2021-05-10T16:08:39.628+05:30"/>
+            <version_2
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                employeename="Vignesh Sharma"
+                employeename_x0040_LastModified="{Date}2021-05-10T16:35:56.565+05:30"
+                headBranch="Pune"
+                headBranch_x0040_LastModified="{Date}2021-05-10T16:35:56.566+05:30"
+                joinedDate="{Date}2021-03-01T16:07:00.000+05:30"
+                joinedDate_x0040_LastModified="{Date}2021-05-10T16:35:56.565+05:30"
+                permanentEmployee="{Boolean}false"
+                permanentEmployee_x0040_LastModified="{Date}2021-05-10T16:35:56.566+05:30"
+                skills="[Java,Python,React,Angular]"
+                skills_x0040_LastModified="{Date}2021-05-10T16:35:56.565+05:30"
+                workLife="&lt;p>Work–life balance is sort of a nebulous term that gets thrown around a lot. It doesn't necessarily mean a 50/50 balance of time between professional and personal pursuits. What it actually means is striking the right ratio of time you spend reaching career goals and doing what brings joy to your life. This ratio can change over time, depending on where your individual priorities lie. If you're saving up for a down payment on a new house, you might, for instance, put more time into your career so you can increase your earnings.&lt;/p>&#xa;"
+                workLife_x0040_ContentType="text/html"
+                workLife_x0040_LastModified="{Date}2021-05-10T16:35:56.566+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <version_2
+                    jcr:description="Version 2"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Version 2"
+                    name="version_2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[employeename:7ea4a79c-50ee-485e-b261-a395bc3fbddd,skills:7ea4a79c-50ee-485e-b261-a395bc3fbddd,joinedDate:7ea4a79c-50ee-485e-b261-a395bc3fbddd,permanentEmployee:7ea4a79c-50ee-485e-b261-a395bc3fbddd,headBranch:7ea4a79c-50ee-485e-b261-a395bc3fbddd,workLife:7ea4a79c-50ee-485e-b261-a395bc3fbddd]"/>
+                </version_2>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

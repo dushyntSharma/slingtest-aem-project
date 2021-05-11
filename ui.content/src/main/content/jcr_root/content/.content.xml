@@ -22,4 +22,8 @@
     <wknd-events/>
     <Test/>
     <SlingTest/>
+    <OSGIConfig/>
+    <WorkFlow/>
+    <xfaforms/>
+    <apps/>
 </jcr:root>
