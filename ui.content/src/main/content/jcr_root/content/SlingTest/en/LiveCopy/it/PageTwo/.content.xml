@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-05-11T23:07:35.352+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2021-05-11T23:07:35.356+05:30"
+        cq:lastRolledoutBy="admin"
+        cq:lastTranslationUpdate="{Date}2021-05-11T22:44:52.401+05:30"
+        cq:template="/conf/SlingTest/settings/wcm/templates/language-master"
+        cq:translationSourcePath="/content/SlingTest/LanguageMasters/en/PageTwo"
+        cq:translationStatus="DRAFT"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PageTwo"
+        sling:resourceType="SlingTest/components/structure/page">
+        <cq:LiveSyncConfig
+            cq:isDeep="{Boolean}true"
+            cq:master="/content/SlingTest/LanguageMasters/it/PageTwo"
+            cq:rolloutConfigs="[/libs/msm/wcm/rolloutconfigs/default]"
+            jcr:primaryType="cq:LiveCopy"/>
+    </jcr:content>
+</jcr:root>

@@ -1,5 +1,16 @@
-<h1>Resolver Page Information</h1>
+<h1>CSV File Reading</h1>
 
 <div data-sly-use.model="com.mindtree.net.core.csv.CSVModel"></div>
 
+<p>=================================================================================================</p>
+
+<h3>CSV File reading using the one Single String function</h3>
 <div>${model.pagePath}</div>
+
+<p>=================================================================================================</p>
+<h3>CSV File reading using the Buffered reader</h3>
+<div data-sly-list.item="${model.page}">
+	<li>${item}</li>
+</div>
+
+<p>=================================================================================================</p>

@@ -9,7 +9,8 @@
     <client-library/>
     <internationalisation/>
     <resolver-assignment/>
-    <aaa/>
     <csv-reader/>
     <content-fragment-test/>
+    <experience-fragment/>
+    <language-master/>
 </jcr:root>

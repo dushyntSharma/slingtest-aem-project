@@ -1,5 +1,7 @@
 package com.mindtree.net.core.csv;
 
+import java.util.List;
+
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
@@ -13,6 +15,10 @@ public class CSVModel {
 
 	public String getPagePath() {
 		return csvReader.getCsvFile();
+	}
+
+	public List<String> getPage() {
+		return csvReader.getPage();
 	}
 
 }

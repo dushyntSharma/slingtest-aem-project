@@ -3,6 +3,8 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-12T18:38:08.926+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/client-library"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="SlingTest/components/structure/page">

@@ -3,25 +3,79 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-05-10T16:36:21.509+05:30"
+        cq:lastModified="{Date}2021-05-13T08:16:26.150+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/content-fragment-test"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="SlingTest/components/structure/page">
         <root
+            cq:styleIds="[1620182429373]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <mycontentfragment
                 jcr:created="{Date}2021-05-10T16:33:30.506+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-10T16:36:21.506+05:30"
+                jcr:lastModified="{Date}2021-05-12T18:35:25.304+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SlingTest/components/content/myContentFragment"
                 displayMode="multi"
                 fragmentPath="/content/dam/SlingTest/content-fragment/en/employee-details"
                 paragraphScope="all"
+                variationName="version_2"/>
+            <contentfragment
+                jcr:created="{Date}2021-05-12T22:32:15.436+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-12T22:45:37.261+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dam/cfm/components/contentfragment"
+                element="FullName"
+                fileReference="/content/dam/SlingTest/content-fragment/en/covid19-vaccination"
+                paragraphScope="all"
+                text="Shreevatsa MS"
+                variation="master">
+                <par1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                <par0
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="dam/cfm/components/grid">
+                    <mycontentfragment
+                        jcr:created="{Date}2021-05-13T08:15:43.809+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-05-13T08:16:26.125+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="SlingTest/components/content/myContentFragment"
+                        displayMode="multi"
+                        fragmentPath="/content/dam/SlingTest/content-fragment/en/employee-details"
+                        paragraphScope="all"
+                        variationName="version_2"/>
+                </par0>
+            </contentfragment>
+            <covid19_vaccination_
+                jcr:created="{Date}2021-05-12T22:53:23.680+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-12T22:53:47.630+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/covid19-vaccination-CF"
+                displayMode="multi"
+                fragmentPath="/content/dam/SlingTest/content-fragment/en/covid19-vaccination"
+                paragraphScope="all"
                 variationName="master"/>
+            <covid19_vaccination__576767460
+                jcr:created="{Date}2021-05-12T22:54:21.000+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-12T22:54:40.861+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/covid19-vaccination-CF"
+                displayMode="multi"
+                fragmentPath="/content/dam/SlingTest/content-fragment/en/covid19-vaccination"
+                paragraphScope="all"
+                variationName="variation_2"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

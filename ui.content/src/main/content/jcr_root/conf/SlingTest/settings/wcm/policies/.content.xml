@@ -8,7 +8,7 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2021-05-09T16:39:43.303+05:30"
+                        jcr:lastModified="{Date}2021-05-12T19:44:47.842+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SlingSite Default"
@@ -38,6 +38,16 @@
                                         cq:styleClasses="body-back"
                                         cq:styleId="1620182429373"
                                         cq:styleLabel="Silver"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="body-back2"
+                                        cq:styleId="1620828866817"
+                                        cq:styleLabel="Sky-Blue"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="body-back3"
+                                        cq:styleId="1620828878980"
+                                        cq:styleLabel="Yellow"
                                         jcr:primaryType="nt:unstructured"/>
                                 </cq:styles>
                             </item0>
@@ -337,6 +347,67 @@
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1620455209912>
                 </carousel>
+                <myImage jcr:primaryType="nt:unstructured">
+                    <policy_1620828097256
+                        jcr:lastModified="{Date}2021-05-12T19:32:58.593+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="New Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowUpload="true"
+                        altValueFromDAM="true"
+                        disableLazyLoading="true"
+                        displayPopupTitle="true"
+                        isDecorative="false"
+                        jpegQuality="{Long}11"
+                        titleValueFromDAM="true"
+                        uuidDisabled="true">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <plugins jcr:primaryType="nt:unstructured">
+                            <crop
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <aspectRatios jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Wide Landscape"
+                                        ratio="0.6180"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Landscape"
+                                        ratio="0.8284"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Square"
+                                        ratio="1"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Portrait"
+                                        ratio="1.6180"/>
+                                </aspectRatios>
+                            </crop>
+                            <rotate
+                                jcr:primaryType="nt:unstructured"
+                                features="right"/>
+                            <flip
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        </plugins>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="border-radius"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="img-8"
+                                        cq:styleId="1620828108572"
+                                        cq:styleLabel="8px"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1620828097256>
+                </myImage>
             </content>
         </components>
     </SlingTest>

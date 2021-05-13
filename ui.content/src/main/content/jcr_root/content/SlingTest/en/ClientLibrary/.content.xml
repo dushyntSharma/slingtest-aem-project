@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-09T16:27:28.613+05:30"
+        cq:lastModified="{Date}2021-05-13T08:10:55.098+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/client-library"
         jcr:primaryType="cq:PageContent"
@@ -15,7 +15,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <text_1527826806
-                cq:styleIds="[1620139634665,1620138203864,1620140074136]"
+                cq:styleIds="[1620139672989,1620138203864,1620140074136]"
                 jcr:created="{Date}2021-05-04T18:33:28.856+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-05-04T20:20:21.089+05:30"
@@ -48,11 +48,25 @@
                 cq:styleIds="[1620147595225]"
                 jcr:created="{Date}2021-05-04T22:34:25.253+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-04T23:14:07.802+05:30"
+                jcr:lastModified="{Date}2021-05-12T19:00:14.912+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SlingTest/components/content/image"
-                fileReference="/content/dam/we-retail/en/experiences/fly-fishing-the-amazon/fly-fishing-the-amazon-1.jpg"/>
+                alt="/content/dam/SlingTest/en/features/header.jpg"
+                altValueFromDAM="false"
+                displayPopupTitle="false"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"
+                isDecorative="false"
+                linkURL="/content/dam/SlingTest/en/features/header.jpg"
+                titleValueFromDAM="false"/>
+            <image_425760463
+                jcr:created="{Date}2021-05-12T19:00:48.912+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-12T19:00:57.186+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/image"
+                fileReference="/content/dam/core-components-examples/library/sample-assets/lava-rock-formation.jpg"/>
         </root>
     </jcr:content>
 </jcr:root>

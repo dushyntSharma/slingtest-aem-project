@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="736e94b8-f7ff-415a-a70d-b59736466db1">
+    <jcr:content
+        cq:name="covid19-vaccination"
+        cq:parentPath="/content/dam/SlingTest/content-fragment/en"
+        cq:versionCreator="admin"
+        jcr:description="Covid19 Vaccination"
+        jcr:lastModified="{Date}2021-05-12T22:43:53.180+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Covid19 Vaccination"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-12T22:43:53.180+05:30">
+        <data
+            cq:model="/conf/SlingTest/settings/dam/cfm/models/beta-testing-cf"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[we-retail:apparel/glasses,we-retail:apparel/footwear,we-retail:apparel/hat,we-retail:apparel/gloves]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                ContentReference="/content/SlingTest/en/ClientLibrary"
+                ContentReference_x0040_LastModified="{Date}2021-05-12T22:42:40.433+05:30"
+                CovidHeros="[we-retail:apparel/footwear,we-retail:apparel/glasses,we-retail:apparel/gloves,we-retail:apparel/hat]"
+                CovidHeros_x0040_LastModified="{Date}2021-05-12T22:42:40.433+05:30"
+                DOB="{Date}1998-07-07T00:00:00.000+05:30"
+                DOB_x0040_LastModified="{Date}2021-05-12T22:42:40.432+05:30"
+                FullName="Shreevatsa MS"
+                FullName_x0040_LastModified="{Date}2021-05-12T22:42:40.430+05:30"
+                MobileNumber="{Long}9964826490"
+                MobileNumber_x0040_LastModified="{Date}2021-05-12T22:42:40.432+05:30"
+                State="Karnataka"
+                State_x0040_LastModified="{Date}2021-05-12T22:42:40.432+05:30"
+                Symptoms="&lt;p>Cold, Headache, Tiredness&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                Symptoms_x0040_ContentType="text/html"
+                Symptoms_x0040_LastModified="{Date}2021-05-12T22:42:40.431+05:30"
+                Vaccinated="{Boolean}true"
+                Vaccinated_x0040_LastModified="{Date}2021-05-12T22:42:40.431+05:30"/>
+            <variation_2
+                cq:tags="[we-retail:apparel/glasses,we-retail:apparel/footwear,we-retail:apparel/hat,we-retail:apparel/gloves]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                ContentReference="/content/SlingTest/en/ClientLibrary"
+                ContentReference_x0040_LastModified="{Date}2021-05-12T22:43:53.125+05:30"
+                CovidHeros="[we-retail:apparel/footwear,we-retail:apparel/glasses,we-retail:apparel/gloves,we-retail:apparel/hat]"
+                CovidHeros_x0040_LastModified="{Date}2021-05-12T22:43:53.125+05:30"
+                DOB="{Date}1998-07-15T00:00:00.000+05:30"
+                DOB_x0040_LastModified="{Date}2021-05-12T22:43:53.120+05:30"
+                FullName="Vignesh Sharma"
+                FullName_x0040_LastModified="{Date}2021-05-12T22:43:53.120+05:30"
+                MobileNumber="{Long}9964826490"
+                MobileNumber_x0040_LastModified="{Date}2021-05-12T22:43:53.120+05:30"
+                State="Maharastra"
+                State_x0040_LastModified="{Date}2021-05-12T22:43:53.125+05:30"
+                Symptoms="&lt;p>Nothing as much&lt;/p>&#xa;"
+                Symptoms_x0040_ContentType="text/html"
+                Symptoms_x0040_LastModified="{Date}2021-05-12T22:43:53.120+05:30"
+                Vaccinated="{Boolean}false"
+                Vaccinated_x0040_LastModified="{Date}2021-05-12T22:43:53.120+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <variation_2
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Variation 2"
+                    name="variation_2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[FullName:3fe89755-a0f8-4454-ac7b-74686b6abcec,Symptoms:3fe89755-a0f8-4454-ac7b-74686b6abcec,Vaccinated:3fe89755-a0f8-4454-ac7b-74686b6abcec,DOB:3fe89755-a0f8-4454-ac7b-74686b6abcec,MobileNumber:3fe89755-a0f8-4454-ac7b-74686b6abcec,State:3fe89755-a0f8-4454-ac7b-74686b6abcec,CovidHeros:3fe89755-a0f8-4454-ac7b-74686b6abcec,ContentReference:3fe89755-a0f8-4454-ac7b-74686b6abcec]"/>
+                </variation_2>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
