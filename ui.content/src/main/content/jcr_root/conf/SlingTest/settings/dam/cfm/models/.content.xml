@@ -3,4 +3,5 @@
     jcr:primaryType="cq:Page">
     <test-cf-model/>
     <beta-testing-cf/>
+    <new-cf-test/>
 </jcr:root>

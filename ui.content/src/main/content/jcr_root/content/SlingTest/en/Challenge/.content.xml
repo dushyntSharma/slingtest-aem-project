@@ -2,10 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-01T09:53:51.495+05:30"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-05-14T12:28:13.210+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/challenge"
         jcr:primaryType="cq:PageContent"
         jcr:title="Challenge"
-        sling:resourceType="SlingTest/components/structure/page"/>
+        sling:resourceType="SlingTest/components/structure/page"
+        sling:vanityPath="/challenge"/>
 </jcr:root>

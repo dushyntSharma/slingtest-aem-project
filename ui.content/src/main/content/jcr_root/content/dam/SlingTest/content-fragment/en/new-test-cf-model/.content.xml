@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ead799a3-517f-4af5-b879-fb1be02fc401">
+    <jcr:content
+        cq:name="new-test-cf-model"
+        cq:parentPath="/content/dam/SlingTest/content-fragment/en"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-05-14T12:06:54.490+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="New Test CF Model"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-14T12:06:54.491+05:30">
+        <data
+            cq:model="/conf/SlingTest/settings/dam/cfm/models/new-cf-test"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[we-retail:activity/biking]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                address="&lt;p>Bangalore&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                address_x0040_ContentType="text/html"
+                address_x0040_LastModified="{Date}2021-05-14T12:05:59.897+05:30"
+                DOB="{Date}1998-01-01T00:00:00.000+05:30"
+                DOB_x0040_LastModified="{Date}2021-05-14T12:05:59.938+05:30"
+                Feedback="[Good,Nice]"
+                Feedback_x0040_LastModified="{Date}2021-05-14T12:05:59.897+05:30"
+                fullname="Shreevatsa MS"
+                fullname_x0040_LastModified="{Date}2021-05-14T12:05:59.896+05:30"
+                MobileNumber="{Long}9964856452"
+                MobileNumber_x0040_LastModified="{Date}2021-05-14T12:05:59.936+05:30"
+                reference="/content/SlingTest/en/ClientLibrary"
+                reference_x0040_LastModified="{Date}2021-05-14T12:05:59.940+05:30"
+                state="Karnataka"
+                state_x0040_LastModified="{Date}2021-05-14T12:05:59.937+05:30"
+                tags="[we-retail:activity/biking]"
+                tags_x0040_LastModified="{Date}2021-05-14T12:05:59.939+05:30"
+                vaccinated="{Boolean}true"
+                vaccinated_x0040_LastModified="{Date}2021-05-14T12:05:59.937+05:30"/>
+            <variation_2
+                cq:tags="[we-retail:activity/biking,we-retail:activity/hiking]"
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                address="&lt;p>Pune&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p>&#xa;"
+                address_x0040_ContentType="text/html"
+                address_x0040_LastModified="{Date}2021-05-14T12:06:54.420+05:30"
+                DOB="{Date}1998-01-01T00:00:00.000+05:30"
+                DOB_x0040_LastModified="{Date}2021-05-14T12:06:54.423+05:30"
+                Feedback="[Good,Nice,Very good]"
+                Feedback_x0040_LastModified="{Date}2021-05-14T12:06:54.421+05:30"
+                fullname="Vignesh"
+                fullname_x0040_LastModified="{Date}2021-05-14T12:06:54.419+05:30"
+                MobileNumber="{Long}9964856459"
+                MobileNumber_x0040_LastModified="{Date}2021-05-14T12:06:54.421+05:30"
+                reference="/content/SlingTest/en/Challenge"
+                reference_x0040_LastModified="{Date}2021-05-14T12:06:54.425+05:30"
+                state="Maharastra"
+                state_x0040_LastModified="{Date}2021-05-14T12:06:54.423+05:30"
+                tags="[we-retail:activity/biking,we-retail:activity/hiking]"
+                tags_x0040_LastModified="{Date}2021-05-14T12:06:54.424+05:30"
+                vaccinated="{Boolean}false"
+                vaccinated_x0040_LastModified="{Date}2021-05-14T12:06:54.422+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <variation_2
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Variation 2"
+                    name="variation_2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[fullname:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,address:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,Feedback:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,MobileNumber:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,vaccinated:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,state:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,DOB:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,tags:5ff6636c-3244-47c7-9ad6-21cb71fa33ae,reference:5ff6636c-3244-47c7-9ad6-21cb71fa33ae]"/>
+                </variation_2>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

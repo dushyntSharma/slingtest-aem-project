@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-05-13T10:19:21.157+05:30"
+        cq:lastModified="{Date}2021-05-14T10:30:56.092+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/ootb-component"
         jcr:primaryType="cq:PageContent"
@@ -193,6 +193,31 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/image"/>
             </carousel_1849366068>
+            <my_text_overrride_co
+                jcr:created="{Date}2021-05-13T18:05:47.308+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-14T10:02:01.415+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/my-text-overrride-component"
+                text="&lt;p>Hi People,&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <my_text_override
+                jcr:created="{Date}2021-05-14T10:01:24.784+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-14T10:01:46.684+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="Test/components/content/my-text-override"
+                text="&lt;p>This is an Override Text Component&lt;/p>&#xa;"
+                textIsRich="true"/>
+            <my_text_overlay
+                jcr:created="{Date}2021-05-14T10:15:32.619+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-05-14T10:15:32.619+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingTest/components/content/my-text-overlay"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-13T08:10:55.098+05:30"
+        cq:lastModified="{Date}2021-05-14T11:52:33.434+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/client-library"
         jcr:primaryType="cq:PageContent"
@@ -15,7 +15,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <text_1527826806
-                cq:styleIds="[1620139672989,1620138203864,1620140074136]"
+                cq:styleIds="[1620138213227,1620139672989,1620135878373]"
                 jcr:created="{Date}2021-05-04T18:33:28.856+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-05-04T20:20:21.089+05:30"
@@ -25,7 +25,7 @@
                 text="&lt;p>Shreevatsa MS&lt;/p>&#xa;"
                 textIsRich="true"/>
             <text
-                cq:styleIds="[1620138213227,1620140071899,1620139672989]"
+                cq:styleIds="[1620138213227,1620135878373,1620139672989]"
                 jcr:created="{Date}2021-05-04T18:45:12.973+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-05-04T20:20:06.223+05:30"
@@ -60,6 +60,7 @@
                 linkURL="/content/dam/SlingTest/en/features/header.jpg"
                 titleValueFromDAM="false"/>
             <image_425760463
+                cq:styleIds="[1620147595225]"
                 jcr:created="{Date}2021-05-12T19:00:48.912+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-05-12T19:00:57.186+05:30"

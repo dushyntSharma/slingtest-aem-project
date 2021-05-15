@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-05-13T08:16:26.150+05:30"
+        cq:lastModified="{Date}2021-05-14T10:27:11.548+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/content-fragment-test"
         jcr:primaryType="cq:PageContent"
@@ -15,7 +15,7 @@
             <mycontentfragment
                 jcr:created="{Date}2021-05-10T16:33:30.506+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-05-12T18:35:25.304+05:30"
+                jcr:lastModified="{Date}2021-05-14T10:27:11.508+05:30"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="SlingTest/components/content/myContentFragment"
@@ -33,7 +33,7 @@
                 element="FullName"
                 fileReference="/content/dam/SlingTest/content-fragment/en/covid19-vaccination"
                 paragraphScope="all"
-                text="Shreevatsa MS"
+                text="Employee Details Employee Details Employee Name Vignesh Sharma Skills Java Python React Angular Joined Date 2021-03-01 16:07 permanentEmployee false Head Branch Pune Work Life Workâ€“life balance is sort of a nebulous term that gets thrown around a lot. It doesn't necessarily mean a 50/50 balance of time between professional and personal pursuits. What it actually means is striking the right ratio of time you spend reaching career goals and doing what brings joy to your life. This ratio can change over time, depending on where your individual priorities lie. If you're saving up for a down payment on a new house, you might, for instance, put more time into your career so you can increase your earnings. Shreevatsa MS"
                 variation="master">
                 <par1
                     jcr:primaryType="nt:unstructured"
