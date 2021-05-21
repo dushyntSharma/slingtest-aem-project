@@ -1,8 +1,10 @@
 package com.mindtree.net.core.service;
 
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -27,14 +29,17 @@ import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMException;
 import com.mindtree.net.core.models.PageModel;
 
-@Component(service = CSVAemComponent.class, immediate = true)
-public class CSVAemComponentImpl implements CSVAemComponent {
+@Component(service = CsvPageCreate.class, immediate = true)
+public class CsvPageCreateImpl implements CsvPageCreate {
+
 	@Reference
 	ResourceResolverFactory resourceResolverFactory;
 
-	private static final Logger LOG = LoggerFactory.getLogger(CSVAemComponentImpl.class);
+	private static final Logger LOG = LoggerFactory.getLogger(CsvPageCreateImpl.class);
 
 	public static final String SERVICE_NAME = "newVariable";
+
+	public static final String RESOURCE_PATH = "/content/dam/SlingTest/CSV/CsvPage.csv";
 
 	ResourceResolver resourceResolver = null;
 
@@ -61,28 +66,25 @@ public class CSVAemComponentImpl implements CSVAemComponent {
 		BufferedReader bufferedReader = null;
 
 		try {
-			Resource resource = resourceResolver.getResource("/content/dam/SlingTest/CSV/csvreader.csv");
-			LOG.info("============================================================");
-			LOG.info("resource is coming in getCSVContent");
-			LOG.info("============================================================");
+			Resource resource = resourceResolver.getResource(RESOURCE_PATH);
+			LOG.info("resource is coming");
 			Asset asset = resource.adaptTo(Asset.class);
 			Rendition rendition = asset.getOriginal();
 			inputStream = rendition.adaptTo(InputStream.class);
 			inputStreamReader = new InputStreamReader(inputStream);
 			bufferedReader = new BufferedReader(inputStreamReader);
 
-			pageProperties = new LinkedList<PageModel>();
+			pageProperties = new LinkedList<>(); // importance of linkedlist over here
 
 			pageProperties = bufferedReader.lines().skip(1).map(singleLine -> {
 				String[] arr = singleLine.split(",");
 				PageModel pageModel = new PageModel();
+				pageModel.setPageParent(arr[3].trim());
 				pageModel.setPageName(arr[0].trim());
 				pageModel.setPageTemplate(arr[1].trim());
 				pageModel.setPageTitle(arr[2].trim());
-				pageModel.setPageParent(arr[3].trim());
 				return pageModel;
 			}).collect(Collectors.toList());
-
 		} catch (Exception e) {
 			LOG.error("We failed to get the CSV datas");
 		} finally {
@@ -101,36 +103,45 @@ public class CSVAemComponentImpl implements CSVAemComponent {
 		return pageProperties;
 	}
 
-	@Override
-	public int addPage() {
+//	public static final String PARENT_PATH = "/content/workFlowProject/en";
+//	public static final String PAGE_NAME = "CsvPage";
+//	public static final String WHICH_TEMPLATE = "/conf/workFlowProject/settings/wcm/templates";
+//	public static final String PAGE_TITLE = "CsvPageCretion";
 
-		List<PageModel> pageProperties = getCsvContent();
-		LOG.info("============================================================");
-		LOG.info("Resource is comming to the addPage method");
-		LOG.info("============================================================");
-		int pageCount = 0;
+	@Override
+	public List<Page> createPage() {
+		List<Page> pagesCreated = new LinkedList<>();
+		List<PageModel> pageProperties = getCsvContent(); // excluded the csv for now
+		LOG.info("******************        Hi i am comming from create Page *******************************");
+
 		PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+		Page page;
+
 		try {
 			for (PageModel pageModel : pageProperties) {
 
-				Page page = pageManager.create(pageModel.getPageParent(), pageModel.getPageName(),
+				LOG.info("*+=+++++++=+=++++++++ hi iam from imple try block ++===============***");
+				LOG.info("===============================");
+				LOG.info(pageModel.getPageName());
+				LOG.info(pageModel.getPageParent());
+				LOG.info(pageModel.getPageTemplate());
+				LOG.info(pageModel.getPageTitle());
+				LOG.info("===============================");
+
+				Page page1 = pageManager.create(pageModel.getPageParent(), pageModel.getPageName(),
 						pageModel.getPageTemplate(), pageModel.getPageTitle());
 
-				// Page page = pageManager.create(PARENT_PATH, PAGE_NAME, WHICH_TEMPLATE,
-				// PAGE_TITLE);
-
-				if (page != null) {
-					pageCount++;
+				LOG.info("*+=+++++++=+=++++++++ hi iam from imple try block after create page  ++===============***");
+				if (page1 != null) {
+					pagesCreated.add(page1);
 				}
-				LOG.info("============================================================");
-				LOG.info("Page added in addPage");
-				LOG.info("============================================================");
 			}
-
+			return pagesCreated;
 		} catch (WCMException e) {
 			LOG.error("Page not created");
 		}
-		return pageCount;
+		return Collections.emptyList();
+
 	}
 
 }
