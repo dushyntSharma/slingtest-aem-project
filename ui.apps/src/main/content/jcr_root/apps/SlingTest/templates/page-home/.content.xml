@@ -6,6 +6,9 @@
     allowedPaths="[/content/SlingTest]"
     ranking="{Long}100">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:55:41.707+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="SlingTest/components/structure/page">
         <logo

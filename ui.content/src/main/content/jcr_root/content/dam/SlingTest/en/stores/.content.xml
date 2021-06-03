@@ -4,6 +4,10 @@
     <jcr:content
         cq:lastModified="{Date}2021-05-06T09:36:19.857+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T17:59:11.486+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="nt:unstructured"
         jcr:title="Stores">
         <folderThumbnail/>

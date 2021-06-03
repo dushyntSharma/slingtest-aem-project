@@ -5,11 +5,15 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="ead799a3-517f-4af5-b879-fb1be02fc401">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:59:39.441+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:name="new-test-cf-model"
         cq:parentPath="/content/dam/SlingTest/content-fragment/en"
         jcr:description=""
         jcr:lastModified="{Date}2021-05-14T12:06:54.490+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="New Test CF Model"
         contentFragment="{Boolean}true"

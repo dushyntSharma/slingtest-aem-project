@@ -2,8 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-05-14T12:24:03.398+05:30"
+        cq:lastModified="{Date}2021-05-28T08:53:30.251+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T17:48:57.190+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:templateType="/conf/SlingTest/settings/wcm/template-types/content-page"
         jcr:description="Simple content page for SlingSite"
         jcr:primaryType="cq:PageContent"

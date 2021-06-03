@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2021-05-11T22:45:59.169+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:19:50.107+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:lastTranslationUpdate="{Date}2021-05-11T22:44:51.208+05:30"
         cq:template="/conf/SlingTest/settings/wcm/templates/language-master"
         cq:translationProject="[/content/projects/alpha_translationproject/alpha_translation_project]"
         cq:translationSourcePath="/content/SlingTest/LanguageMasters/en"
         cq:translationStatus="DRAFT"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Spanish"
+        jcr:uuid="73522ed6-1975-48dc-a589-e0b9acccc241"
         sling:resourceType="SlingTest/components/structure/page"/>
     <PageOne/>
     <PageTwo/>

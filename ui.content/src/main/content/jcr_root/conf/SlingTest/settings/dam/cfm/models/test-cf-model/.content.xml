@@ -6,6 +6,9 @@
     <jcr:content
         cq:lastModified="{Date}2021-05-10T15:45:48.263+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T17:48:52.433+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:scaffolding="/conf/SlingTest/settings/dam/cfm/models/test-cf-model/jcr:content/model"
         cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
         jcr:primaryType="cq:PageContent"

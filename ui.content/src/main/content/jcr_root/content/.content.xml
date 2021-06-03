@@ -24,7 +24,9 @@
     <SlingTest/>
     <OSGIConfig/>
     <WorkFlow/>
-    <xfaforms/>
     <apps/>
     <ServletsTest/>
+    <ConfigProject/>
+    <xfaforms/>
+    <TestAEM/>
 </jcr:root>

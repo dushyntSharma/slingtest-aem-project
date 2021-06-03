@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-05-14T12:28:13.210+05:30"
+        cq:lastModified="{Date}2021-05-27T10:40:07.150+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:17:55.051+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/SlingTest/settings/wcm/templates/challenge"
+        jcr:description="Challenge Is always fun"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Challenge"
+        jcr:uuid="d04ecbc6-3806-4508-8ec9-636542ab05e0"
         sling:resourceType="SlingTest/components/structure/page"
-        sling:vanityPath="/challenge"/>
+        sling:vanityPath="/challenge"
+        navTitle="Challenge Nav title"
+        pageTitle="Challange"
+        subtitle="Challenge Subtitle"/>
 </jcr:root>

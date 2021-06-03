@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
-    jcr:mixinTypes="[rep:AccessControllable]"
+    cq:lastReplicated="{Date}2021-05-27T17:48:52.433+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <content-page/>
     <challenge/>
@@ -13,4 +16,6 @@
     <content-fragment-test/>
     <experience-fragment/>
     <language-master/>
+    <reviewi18n/>
+    <dispatcher-test/>
 </jcr:root>

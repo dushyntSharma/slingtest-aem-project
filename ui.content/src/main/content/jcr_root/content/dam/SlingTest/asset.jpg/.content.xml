@@ -5,11 +5,15 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="9ece1b07-3135-4f6d-bff5-942a8ffa1773">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:59:11.486+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:name="asset.jpg"
         cq:parentPath="/content/dam/SlingTest"
         dam:assetState="processed"
         jcr:lastModified="{Date}2021-05-01T12:29:28.256+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"

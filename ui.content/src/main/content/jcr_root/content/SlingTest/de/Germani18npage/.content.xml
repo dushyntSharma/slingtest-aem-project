@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-05-24T13:03:27.100+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:19:19.842+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/conf/SlingTest/settings/wcm/templates/reviewi18n"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Germani18n page"
+        jcr:uuid="7730cd3c-838f-425f-a998-50ccd3842dd1"
+        sling:resourceType="SlingTest/components/structure/page"/>
+</jcr:root>

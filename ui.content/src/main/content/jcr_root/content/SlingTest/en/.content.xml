@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:allowedTemplates="[/apps/SlingTest/templates/.*,/conf/SlingTest/settings/wcm/templates/.*,/conf/Editable Template/settings/wcm/templates/.*,/conf/SlingTest/alpha-editable-template/settings/wcm/templates/.*]"
@@ -7,9 +7,15 @@
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
         cq:lastModified="{Date}2021-05-13T07:52:20.067+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:17:55.051+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/SlingTest/settings/wcm/templates/content-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="English"
+        jcr:uuid="090ed37b-1f92-4d9f-af4f-14808f63d48c"
         sling:resourceType="SlingTest/components/structure/page"
         pageTitle="New Project"
         socialMedia="[facebook]">
@@ -108,4 +114,8 @@
     <OOTb/>
     <new-contentfragment/>
     <static-test-page/>
+    <i18nPage/>
+    <Workflowspace1/>
+    <DispatcherTest0/>
+    <RobotTxt/>
 </jcr:root>

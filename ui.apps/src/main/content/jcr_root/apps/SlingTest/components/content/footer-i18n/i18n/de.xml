@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    cq:lastReplicated="{Date}2021-05-27T17:54:44.767+05:30"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
     jcr:language="de"
-    jcr:mixinTypes="[mix:language]"
+    jcr:mixinTypes="[cq:ReplicationStatus,mix:language]"
     jcr:primaryType="nt:folder">
     <message
+        cq:lastReplicated="{Date}2021-05-27T17:54:44.767+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="sling:MessageEntry"
         sling:key="copy"
         sling:message="Hallo allerseits, Sie sehen sich den Inhalt in DEUTSCH an."/>

@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2021-05-14T11:52:33.434+05:30"
+        cq:lastModified="{Date}2021-05-18T12:46:15.536+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:17:55.051+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/conf/SlingTest/settings/wcm/templates/client-library"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Client Library"
+        jcr:uuid="fadf0faf-c086-4191-b5df-57cfefc51873"
         sling:resourceType="SlingTest/components/structure/page">
         <root
             cq:styleIds="[1620182429373]"
@@ -25,7 +31,7 @@
                 text="&lt;p>Shreevatsa MS&lt;/p>&#xa;"
                 textIsRich="true"/>
             <text
-                cq:styleIds="[1620138213227,1620135878373,1620139672989]"
+                cq:styleIds="[1620138213227,1620139634665,1620140068589]"
                 jcr:created="{Date}2021-05-04T18:45:12.973+05:30"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2021-05-04T20:20:06.223+05:30"

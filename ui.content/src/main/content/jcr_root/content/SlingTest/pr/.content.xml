@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2021-05-11T22:55:22.927+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:19:50.107+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:lastRolledout="{Date}2021-05-11T22:51:49.835+05:30"
         cq:lastRolledoutBy="admin"
         cq:siteOwner="admin"
         cq:template="/conf/SlingTest/settings/wcm/templates/language-master"
-        jcr:mixinTypes="[cq:LiveSync]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Portugal"
+        jcr:uuid="28a634c1-c1ef-4382-bc97-3ecf934db74e"
         sling:resourceType="SlingTest/components/structure/page">
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}true"

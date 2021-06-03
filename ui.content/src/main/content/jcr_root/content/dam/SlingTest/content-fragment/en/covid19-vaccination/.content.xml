@@ -5,12 +5,16 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="736e94b8-f7ff-415a-a70d-b59736466db1">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:59:39.441+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:name="covid19-vaccination"
         cq:parentPath="/content/dam/SlingTest/content-fragment/en"
         cq:versionCreator="admin"
         jcr:description="Covid19 Vaccination"
         jcr:lastModified="{Date}2021-05-13T12:43:08.545+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Covid19 Vaccination"
         contentFragment="{Boolean}true"

@@ -4,9 +4,13 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="beaf5274-59df-4692-bb05-d643cefabb53">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:59:34.867+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         dam:assetState="processed"
         jcr:lastModified="{Date}2021-05-10T12:32:48.140+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:extracted="{Date}2021-05-10T12:32:43.596+05:30"

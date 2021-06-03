@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2021-05-11T22:51:50.413+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:20:03.747+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:lastRolledout="{Date}2021-05-11T22:51:50.418+05:30"
         cq:lastRolledoutBy="admin"
         cq:lastTranslationUpdate="{Date}2021-05-11T22:44:51.574+05:30"
         cq:template="/conf/SlingTest/settings/wcm/templates/language-master"
         cq:translationSourcePath="/content/SlingTest/LanguageMasters/en/PageThree"
         cq:translationStatus="DRAFT"
-        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="PageThree"
+        jcr:uuid="d43f2ff3-b99b-4c05-9acb-13c60dd82777"
         sling:resourceType="SlingTest/components/structure/page">
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}true"

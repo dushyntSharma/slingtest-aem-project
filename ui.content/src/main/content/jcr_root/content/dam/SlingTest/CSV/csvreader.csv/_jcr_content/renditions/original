@@ -1,0 +1,2 @@
+pageName,pageTemplate,pageTitle,pageParent
+myCSVFile,/conf/SlingTest/settings/wcm/templates,mySCVFile,/content/SlingTest/en

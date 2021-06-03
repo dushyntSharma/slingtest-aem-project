@@ -7,6 +7,9 @@
     <jcr:content
         cq:lastModified="{Date}2021-05-06T09:36:32.493+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T17:59:26.932+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:name="men_4.jpg"
         cq:parentPath="/content/dam/SlingTest/en/people/mens"
         dam:assetID="aaid:5c29b4330ab54ea08101ac1f74525aca"
@@ -19,6 +22,7 @@
         dam:s7damWidth="{Long}1920"
         jcr:lastModified="{Date}2016-09-12T17:16:43.106+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"

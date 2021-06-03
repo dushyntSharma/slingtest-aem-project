@@ -5,11 +5,15 @@
     jcr:primaryType="dam:Asset"
     jcr:uuid="1d9dd08d-eb94-48b8-9d6e-2f48cd6cb555">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:59:39.441+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:name="employee-details"
         cq:parentPath="/content/dam/SlingTest/content-fragment/en"
         jcr:description="Employee Details"
         jcr:lastModified="{Date}2021-05-10T16:35:56.601+05:30"
         jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Employee Details"
         contentFragment="{Boolean}true"

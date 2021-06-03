@@ -5,6 +5,9 @@
     jcr:title="alpha-template"
     ranking="{Long}100">
     <jcr:content
+        cq:lastReplicated="{Date}2021-05-27T17:55:38.336+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="/apps/SlingTest/components/structure/alpha-base-page"/>
 </jcr:root>

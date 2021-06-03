@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2021-05-11T23:08:51.010+05:30"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-27T18:18:46.733+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:lastRolledout="{Date}2021-05-11T23:08:51.012+05:30"
         cq:lastRolledoutBy="admin"
         cq:siteOwner="demo-shreevatsa"
         cq:template="/conf/SlingTest/settings/wcm/templates/language-master"
-        jcr:mixinTypes="[cq:LiveSync]"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveSync,mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Live Copy"
+        jcr:uuid="3ebbba78-8bd6-419b-97fd-1594065fbef9"
         sling:resourceType="SlingTest/components/structure/page">
         <cq:LiveSyncConfig
             cq:isDeep="{Boolean}false"
